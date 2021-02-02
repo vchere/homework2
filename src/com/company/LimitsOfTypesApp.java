@@ -58,6 +58,8 @@ public class LimitsOfTypesApp {
                 double maxDouble = Double.MAX_VALUE;
                 System.out.println("Min Double value = " + minDouble);
                 System.out.println("Max Double value = " + maxDouble);
+            default:
+                System.out.println("Incorrect input");
 
 
         }
